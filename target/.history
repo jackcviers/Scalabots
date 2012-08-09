@@ -1,0 +1,17 @@
+update
+compile
+exit
+update
+compile
+play
+ensime generate
+play
+le
+play
+compile
+play
+package
+play
+compile
+package
+exit

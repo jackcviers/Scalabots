@@ -1,0 +1,15 @@
+import sbt._
+import Keys._
+
+object Build extends Build{
+  val botDirectory = SettingKey[File]("bot-directory")
+  val play = TaskKey[Unit]("play")
+  
+  val bot = Project(
+    id = "jackbot"
+    base = file("."),
+    settings = Project.defaultSettings ++ botSettings)
+  
+  val botSettings = Seq[Setting[_]](
+    organization := "
+}
